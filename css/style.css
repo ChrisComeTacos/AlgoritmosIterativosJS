@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    padding: 40px;
+    font-family: Arial;
+}
+
+header{
+    background-color: #fdb720;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+header h1{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+header img{
+position: absolute;
+height: 150px;
+top: 23px;
+left: 490px;
+}
+
+#menu{
+    background-color: black;
+    border-radius: 10px;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 15px 111.5px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #fdb720;
+}
+
+main{
+    margin-top: 30px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 2000px;
+    
+}
+
+iframe{
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    margin-top: -80px;
+    margin-bottom: 30px;
+    top: 250px;
+    right: 100px;
+    height: 600px;
+    width: 800px;
+}
+
+/* Cuadros de Código*/
+
+.CodigoHTML{
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    margin-top: 10px;
+    background-color: rgb(236, 236, 236);
+    height: 500px;
+    width: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.ContenedorHTML h1{
+    position: absolute;
+    top:250px;
+    left: 380px;
+}
+
+.CodigoCSS{
+    position: absolute;
+    left: 80px;
+    top: 890px;
+    margin-top: 50px;
+    background-color: rgb(236, 236, 236);
+    height: 500px;
+    width: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.ContenedorCSS h1{
+    position: absolute;
+    left: 400px;
+    top: 880px;
+}
+
+.CodigoJS{
+    position: absolute;
+    left: 70px;
+    top: 1500px;
+    margin-top: 50px;
+    background-color: rgb(236, 236, 236);
+    height: 500px;
+    width: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.ContenedorJS h1{
+    position: absolute;
+    left: 350px;
+    top: 1490px;
+}
+
+/* Termina cuadros de Código*/
+
+/* Empieza Footer*/
+
+footer{
+    position: relative;
+    bottom: 35px;
+    margin-bottom: -90px;
+    background-color: #fdb720;
+    height: 150px;
+}
+
+footer h1{
+    position: relative;
+    bottom: -50px;
+    text-align: center;
+}
+
+footer img{
+    position: absolute;
+    bottom: -5px;
+    right: 100px;
+    height: 160px;
+}
