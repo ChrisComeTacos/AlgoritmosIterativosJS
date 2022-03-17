@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Algoritmos de Iteracion</h1>
+        <img src="/img/Development.svg">
+    </header>
+
+    <div id="menu">
+               <ul>
+                    <li><a href="index.html">Menú Principal</a></li>
+                </ul>
+    </div>
+
+<!-- Empiezan los codigos -->
+
+<main>
+
+<div class="ContenedorHTML">
+    <h1>HTML</h1>
+        <pre>
+            <code class="CodigoHTML">
+              &#60!DOCTYPE html&gt
+              &#60html lang="en"&gt
+              &#60head&gt
+                  &#60meta charset="UTF-8"&gt
+                  &#60meta http-equiv="X-UA-Compatible" content="IE=edge"&gt
+                  &#60meta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+                  &#60link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"&gt
+                  &#60link href="css/style.css" rel="stylesheet" type="text/css"&gt
+                  &#60title&gtTablaMult&#60/title&gt
+              &#60/head&gt
+              &#60body&gt
+              
+                &#60!--
+                  &#60nav class="navbar navbar-expand-lg navbar-light bg-warning"&gt
+                      &#60div class="container-fluid"&gt
+                        &#60a class="navbar-brand" href="#"&gtChris Torres&#60/a&gt
+                        &#60button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"&gt
+                          &#60span class="navbar-toggler-icon"&gt&#60/span&gt
+                        &#60/button&gt
+                        &#60div class="collapse navbar-collapse" id="navbarNavDropdown"&gt
+                          &#60ul class="navbar-nav"&gt
+                            &#60li class="nav-item"&gt
+                              &#60a class="nav-link" href="index.html"&gtPromedio&#60/a&gt
+                            &#60/li&gt
+                            &#60/li&gt
+                            &#60li class="nav-item"&gt
+                              &#60a class="nav-link" href="sanitizante.html"&gtSanitizante&#60/a&gt
+                            &#60/li&gt
+                            &#60li class="nav-item dropdown"&gt
+                              &#60a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt
+                                Algoritmos Iterativos
+                              &#60/a&gt
+                              &#60ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"&gt
+                                &#60li&gt&#60a class="dropdown-item" href="Factoriales.html"&gtFactoriales&#60/a&gt&#60/li&gt
+                                &#60li&gt&#60a class="dropdown-item" href="#"&gtTablas de multiplicar&#60/a&gt&#60/li&gt
+                                &#60li&gt&#60a class="dropdown-item" href="NumPar.html"&gtNúmeros Pares&#60/a&gt&#60/li&gt
+                              &#60/ul&gt
+                            &#60/li&gt
+                          &#60/ul&gt
+                        &#60/div&gt
+                      &#60/div&gt
+                    &#60/nav&gt--&gt
+                    &#60br&gt
+              
+              &#60div class="cuadroTabla"&gt
+              
+                &#60div class="jumbotron"&gt
+                  &#60h1 class="display-4"&gtTabla de multiplicar&#60/h1&gt
+                  &#60p class="lead"&gtOperación aritmética que consiste en calcular el resultado (producto) de sumar un mismo número (multiplicando) tantas veces como indica otro número (multiplicador); se representa con los signos · o ×.&#60/p&gt
+                  &#60hr class="my-4"&gt
+                  &#60p&gtA continuación, coloca el número a multiplicar para que se te muestre su tabla de multiplicación.&#60/p&gt
+                &#60/div&gt
+              
+              &#60main&gt
+              
+              &#60label for="num"&gtIntroduce un número: &#60/label&gt
+              &#60input type="number" name="" id="num"&gt
+              
+              &#60button class="btn btn-warning" onclick="multi()"&gtMULTIPLICACIÓN&#60/button&gt
+              
+              &#60div id="tabla-multi"&gt&#60/div&gt
+              
+              &#60/div&gt
+              
+              &#60/main&gt
+              &#60/body&gt
+              &#60/html&gt
+              
+                  &#60script src="/AlgoritmosIterativos/js/Tabla.js"&gt&#60/script&gt
+                
+            </code>
+        </pre>
+</div>
+
+<div class="ContenedorCSS">
+<h1>CSS</h1>
+<pre>
+    <code class="CodigoCSS">
+        * {box-sizing: border-box;font-family:Arial;}
+.hide {display:none;}
+.right {text-align:right;}
+.error {border:1px solid Red;}
+
+.nombre {width:100%}
+.formulario {text-align:center;width:400px;border:1px solid #eee;padding:10px;}
+.formulario label,.formulario label~input {
+width: 50%;
+display: inline-block;
+
+}
+.formulario label {text-align:right;padding-right:20px;}
+.formulario>div {margin-top:10px;overflow:hidden;}
+.agregar {
+background-color:green;
+border-color:green;
+color:white;
+}
+
+h1{
+position: absolute;
+left: 500px;
+top: 100px;
+}
+
+#logoUnid{
+position: absolute;
+height: 120px;
+right: 10px;
+}
+
+.litrosCuadro{
+padding: 50px;
+}
+
+.litrosCuadro h1{
+position: absolute;
+left: 50px;
+}
+
+.cuadro {
+position: absolute;
+left: 200px;
+top: 200px;
+}
+
+.cuadro header h1{
+position: absolute;
+left: 100px;
+top: -100px;
+}
+
+.cuadroTabla{
+position: absolute;
+padding: 100px;
+top: 100px;
+}
+
+.cuadroTabla h1{
+position: absolute;
+left: 100px;
+top: 0px;
+}
+
+#logoTabla{
+position: absolute;
+height: 600px;
+top: 250px;
+right: 200px;
+}
+
+#design {
+position: absolute;
+left: 900px;
+top: 200px;
+height: 600px;
+}
+
+#logoSanitizante{
+height: 450px;
+}
+
+#listado, #calculos {
+border:1px solid #eee;
+margin-top:20px;
+width:400px;
+}
+#listado th {background-color:#eee;padding:5px 10px;}
+#listado input[type=button] {
+background-color:Red;
+border-color:Red;
+color:white;
+}
+
+#calculos div {padding:5px;}
+#calculos span {font-weight:bold;}
+
+    </code>
+</pre>
+</div>
+
+
+<div class="ContenedorJS">
+<h1>JavaScript</h1>
+<pre>
+    <code class="CodigoJS">
+
+      const inputNum = document.getElementById("num")
+      const tablaMulti = document.getElementById("tabla-multi")
+      
+      function multi() {
+        const numero = parseInt(inputNum.value)
+        
+        let template = ''
+      
+        for (let i = 1; i <= 10; i++) {
+            template += numero + "x" + i + "=" + numero * i + "<br>"
+        }
+        tablaMulti.innerHTML = template
+      }
+
+    </code>
+</pre>
+</div>
+
+<iframe id="cuadroView" src="/AlgoritmosIterativos/Tabla.html"></iframe>
+
+</main>    
+
+
+<footer>
+  <h1>Universidad Interamericana para el Desarrollo</h1>
+  <img src="/img/UNID.svg">
+</footer>
+
+</body>
+</html>
