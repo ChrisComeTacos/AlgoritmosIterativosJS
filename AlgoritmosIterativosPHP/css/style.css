@@ -1,0 +1,91 @@
+* {box-sizing: border-box;font-family:Arial;}
+.hide {display:none;}
+.right {text-align:right;}
+.error {border:1px solid Red;}
+
+.nombre {width:100%}
+.formulario {text-align:center;width:400px;border:1px solid #eee;padding:10px;}
+.formulario label,.formulario label~input {
+    width: 50%;
+    display: inline-block;
+
+}
+.formulario label {text-align:right;padding-right:20px;}
+.formulario>div {margin-top:10px;overflow:hidden;}
+.agregar {
+    background-color:green;
+    border-color:green;
+    color:white;
+}
+
+h1{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+
+#logoUnid{
+    position: absolute;
+    height: 120px;
+    right: 10px;
+}
+
+.litrosCuadro{
+    padding: 50px;
+}
+
+.litrosCuadro h1{
+    position: absolute;
+    left: 50px;
+}
+
+.cuadro {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+.cuadroTabla{
+    position: absolute;
+    padding: 100px;
+    top: 100px;
+}
+
+.cuadroTabla h1{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+#logoTabla{
+    position: absolute;
+    height: 600px;
+    top: 250px;
+    right: 200px;
+}
+
+#design {
+    position: absolute;
+    left: 900px;
+    top: 200px;
+    height: 600px;
+}
+
+#logoSanitizante{
+    height: 450px;
+}
+
+#listado, #calculos {
+    border:1px solid #eee;
+    margin-top:20px;
+    width:400px;
+}
+#listado th {background-color:#eee;padding:5px 10px;}
+#listado input[type=button] {
+    background-color:Red;
+    border-color:Red;
+    color:white;
+}
+
+#calculos div {padding:5px;}
+#calculos span {font-weight:bold;}

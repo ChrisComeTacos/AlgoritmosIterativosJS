@@ -1,0 +1,14 @@
+.cuadroPar{
+    padding: 30px;
+}
+
+#logoTabla{
+    position: absolute;
+    height: 200px;
+    top: 340px;
+    left: 300px;
+}
+
+#exampleModalLabel{
+    position: fixed;
+}
